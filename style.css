@@ -41,12 +41,13 @@
     text-decoration: none;
 }
 #first .right{
+    height: 594px;
     margin-top: 80px;
     margin-right: 80px;
 }
-#first .right img{
-    width: 100%;
-    padding: 57px 0;
+#first .right img {
+    width: 95%;
+    padding: 16px 15px;
 }
 
 /* ↓ ↓ ↓ second section↓ ↓ ↓ ↓ */
