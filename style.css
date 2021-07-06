@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .side{
     width: 50%;
 }
@@ -17,26 +20,27 @@
 #first .left h1{
     color: #575757;
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
 }
 #first .left span{
-    color: #13b7fb;
+    color: #eb6076;
 }
 #first .left p{
-    color: #828282;
+    color: #575757;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     margin-top: 30px;
     margin-bottom: 50px;
+    line-height: 25px;
 }
 #first .left a{
     color: #fff;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(135deg, #a5d4ee,#13b8fb);
+    font-weight: 700;
+    background-image: linear-gradient(224deg, #eb6076,#d21c1f);
     border-radius: 30px;
-    padding: 10px 20px;
+    box-shadow: 5px 5px 20px rgba(210, 28, 31, 0.6);
+    padding: 20px 40px;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -71,23 +75,75 @@
 #second .right h1{
     color: #575757;
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
 }
 #second .right p{
-    color: #828282;
+    color: #575757;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    line-height: 25px;
 }
 #second .right a{
     color: #fff;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(135deg, #a5d4ee,#13b8fb);
+    font-weight: 700;
+    background-image: linear-gradient(224deg, #eb6076,#d21c1f);
     border-radius: 30px;
-    padding: 10px 20px;
+    box-shadow: 5px 5px 20px rgba(210, 28, 31, 0.6);
+    padding: 20px 40px;
     text-transform: capitalize;
     text-decoration: none;
+}
+/* ↓ ↓ ↓ third ↓ ↓ ↓ */
+#third{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#third h2{
+    color: #575757;
+    font-size: 42px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#third .sub-title{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.recipies{
+    display: flex;
+    margin: 0 70px;
+}
+.recipi{
+    width: 345px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 4px 4px 30px rgba(75, 75, 75, 0.3)
+}
+.recipi img{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipi h3{
+    color: #575757;
+    font-size: 34px;
+    margin: 15px 0;
+}
+.recipi .content{
+    color: #575757;
+    font-size: 16px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
 }
